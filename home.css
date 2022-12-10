@@ -1,0 +1,52 @@
+@font-face {
+    font-family: 'Eurostile';
+    font-style: normal;
+    font-weight: normal;
+    src: url(/assests/fonts/eurostile.woff) format('woff');
+}
+
+
+body {
+    background-image: url(/assests/img/bg2.JPG);
+    box-sizing: border-box;
+    background-size: cover ;
+    font-family: "Eurostile";
+    height: 800px;
+}
+
+ .container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    max-width: 400px;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+ }
+
+ input{
+    width: 100%;
+    padding: 10px;
+    font-family: inherit;
+    margin-bottom: 20px;
+
+ }
+
+ button {
+    width: 100%;
+    padding: 10px;
+    font-family: inherit;
+    border: none;
+    background: #4C6663;
+    
+ }
+
+ input, button {
+    font-size: 20px;
+    box-sizing: border-box;
+    font-weight: bolder;
+    letter-spacing: 3px;
+ }
